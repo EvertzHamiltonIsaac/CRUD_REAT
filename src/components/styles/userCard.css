@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap');
+
+:root {
+    --color-gray-hunt: #CFD2CF;
+    --color-green-hunt: #2EB086;
+    --color-red-hunt: #EB1D36;
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semiBold: 500;
+    --font-bold: 600;
+}
+
+.user {
+    min-width: 300px;
+    margin: auto;
+}
+
+.user_box {
+    background-color: #2EB086;
+    padding: 15px;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user_box_tittle {
+    font-size: 20px;
+}
+
+.user_list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user_item_span {
+    font-size: 16px;
+    font-weight: var(--font-bold);
+}
+
+.user_btn {
+    display: flex;
+    justify-content: end;
+    gap: 0.5em;
+}
+
+.user_btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+}
+
+button .fa-trash {
+    background-color: var(--color-red-hunt);
+    border: 0;
+    border-radius: 5px;
+}
+
+.user_item:nth-child(2) i {
+    margin-right: 5px;
+}

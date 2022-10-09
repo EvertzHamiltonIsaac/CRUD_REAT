@@ -1,0 +1,65 @@
+:root {
+    --color-background: #F7F7F7;
+    --color-green-hunt: #2EB086;
+    --color-red-hunt: #EB1D36;
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semiBold: 500;
+    --font-bold: 600;
+}
+
+
+.form {
+    background-color: var(--color-background);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 270px;
+    position: relative;
+}
+
+.icon_equis {
+    align-self: end;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.form__tittle {
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 18px;
+}
+
+.form_div label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000a;
+}
+
+.form__input {
+    font-family: inherit;
+    padding: 7px 10px;
+    background-color: #f9fAFC;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 30px;
+}
+
+.form__btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #EB1D36;
+    cursor: pointer;
+}

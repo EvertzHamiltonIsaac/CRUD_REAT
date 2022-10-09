@@ -1,0 +1,36 @@
+.user__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1em;
+}
+
+.form__container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0001;
+    backdrop-filter: blur(2px);
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.disable_form {
+    display: none;
+}
+
+.page_top {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.create_btn {
+    background-color: #EB1D36;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
